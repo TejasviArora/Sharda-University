@@ -2,25 +2,25 @@
 int main()  
 {  
     // declare local variables  
-    char opt;  
+    char ch;  
     int n1, n2;   
     float res;  
     printf (" Choose an operator(+, -, *, /) to perform the operation in C Calculator \n ");  
-    scanf ("%c", &opt); // take an operator  
+    scanf ("%c", &ch); // take an operator  
     if (opt == '/' )  
     {  
         printf (" You have selected: Division");  
     }  
-    else if (opt == '*')  
+    else if (ch == '*')  
     {  
         printf (" You have selected: Multiplication");  
      }  
        
-    else if (opt == '-')  
+    else if (ch == '-')  
     {  
         printf (" You have selected: Subtraction");  
      }  
-        else if (opt == '+')  
+        else if (ch == '+')  
     {  
         printf (" You have selected: Addition");  
      }     
@@ -29,7 +29,7 @@ int main()
     printf (" Enter the second number: ");  
     scanf (" %d", &n2); // take second number  
       
-    switch(opt)  
+    switch(ch)  
     {  
         case '+':  
             res = n1 + n2; // add two numbers  

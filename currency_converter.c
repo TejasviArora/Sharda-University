@@ -4,7 +4,7 @@ void main()
 {
   float dollar, inr, rupees;
   int ch;
-  clrscr();
+
    do
    {
    printf("\n\n 1.Rupees -> Dollar");
